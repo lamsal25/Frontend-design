@@ -1,0 +1,965 @@
+.container-fluid{
+    width: 80%;
+}
+.navbar .collapse .navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.navbar{
+    background-color:#7eb6db;
+    /* background-size: cover; */
+}
+.navbar a{
+    color: white;
+}
+.navbar a img{
+    height: 60px;
+    width: 60px;
+}
+.navbar .logo {
+    width: 10%;
+    /* border: 2px solid red; */
+}
+.navbar ul a{
+    text-decoration: underline;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.navbar .dropdown-menu a{
+    color: black;
+}
+
+/* Main header ***********************************************************************************************************************/
+.bg-img{
+    background:url(./../image/ayurved\ background.webp);
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-img .description{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 200px;
+    width: 100%;
+}
+.bg-img .description h4{
+    color: rgb(86, 84, 84);
+    font-weight: 600;
+}
+.bg-img .description h2{
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.bg-img .description h4 span{
+    color: white;
+    background-color:#4aa9e9;
+    padding: 7px 0px 7px 20px;
+}
+.bg-img .description p{
+    font-weight: 500;
+}
+.bg-img .description a{
+    font-size: 20px;
+    color: black;
+}
+.bg-img .description a span{
+    color: #4aa9e9;
+    margin-left: 10px;
+}
+.bg-img .container a:hover{
+    color:#4aa9e9;
+    cursor: pointer;
+}
+.bg-img .description{
+    transition: all ease;
+    animation: appear 1.5s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear{
+    0%{
+        margin-left: 100%;
+        
+    }
+    100%{
+        margin-left:0%;
+    }
+}
+/* FIGURE **************************************************************************************************************/
+.fig{
+   
+    background-color: #f8f9fa;
+}
+.fig img{
+    padding:30px;
+}
+.fig .card{
+    margin-top: 105px;
+    margin-bottom: 105px;
+    border: none;
+}
+.fig .card a{
+    color: #242424;
+}
+.fig .card p{
+    margin-top: 10px;
+}
+
+.fig .product1{
+    transition: all ease 0.5s ;
+}
+.fig .product1:hover{
+    animation:zoom-upward 0.5s ease  ;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.fig .product2{
+    transition: all ease 0.5s ;
+}
+.fig .product2:hover{
+    animation:zoom-upward 0.5s ease  ;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.fig .product3{
+    transition: all ease 0.5s ;
+}
+.fig .product3:hover{
+    animation:zoom-upward 0.5s ease  ;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+@keyframes zoom-upward{
+    0%{
+        margin-top: 105px;
+    }
+
+    100%{
+        margin-top: 90px;
+        box-shadow: 0px 5px 2px -2px #7eb6db ;
+
+    }
+}
+.fig a:hover{
+    color: #7eb6db;
+}
+
+/************************************ WHY PURE AYURVEDA ********************************************************************/
+.circle{
+    background-color: #f0f6f6;
+}
+.circle .container{
+    justify-content: center;
+    text-align: center;
+}
+.circle img{
+    height: 95px;
+    width: 95px;
+    margin-top: 100px;
+}
+.circle .col-lg-4 img{
+    height: 185px;
+    width: 185px;
+    margin-top: 0px;
+}
+.circle .container h4{
+    margin-bottom: 100px;
+}
+.circle .logo{
+        /* margin-top: 50px; */
+        border: 2px dotted #6caaa8;
+        border-radius: 100%;
+        height: 445px;
+        width: 445px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+        margin-left: -15px;
+        
+ }
+
+.circle .listing-left ul{
+        margin-top: 50px;
+        display: block;
+        list-style-type: none;
+}
+    
+.circle .listing-left ul li{
+        margin-bottom: 60px;
+        
+}
+.circle .listing-left ul .organic{
+    position: relative;
+    /* margin-right: 50px; */
+}
+.circle .listing-left ul .organic::after{
+content: " ";
+position: absolute;
+width: 150px;
+bottom: 10%;
+left: 70%;
+border: 0.5px dashed #6caaa8;
+rotate: 5deg;
+}
+.circle .listing-left ul .Best{
+    position: relative;
+    /* margin-right: 50px; */
+}
+.circle .listing-left ul .Best::after{
+content: " ";
+position: absolute;
+width: 110px;
+bottom: 10%;
+left: 70%;
+border: 0.5px dashed #6caaa8;
+rotate: 5deg;
+}
+
+.circle .listing-left ul .Hygenic{
+    position: relative;
+    /* margin-right: 50px; */
+}
+.circle .listing-left ul .Hygenic::after{
+content: " ";
+position: absolute;
+width: 100px;
+bottom: 35%;
+left: 70%;
+border: 0.5px dashed #6caaa8;
+/* rotate: 5deg; */
+}
+.circle .listing-left ul .Quality{
+    position: relative;
+    /* margin-right: 50px; */
+}
+.circle .listing-left ul .Quality::after{
+content: " ";
+position: absolute;
+width: 110px;
+bottom: 55%;
+left: 70%;
+border: 0.5px dashed #6caaa8;
+rotate: -5deg;
+}
+.circle .listing-left ul .Health{
+    position: relative;
+    /* margin-right: 50px; */
+}
+.circle .listing-left ul .Health::after{
+content: " ";
+position: absolute;
+width: 150px;
+bottom: 60%;
+left: 70%;
+border: 0.5px dashed #6caaa8;
+rotate: -5deg;
+}
+
+/*********** RIGHT saide **********/
+
+.circle .listing-right ul{
+    margin-top: 50px;
+    display: block;
+    list-style-type: none;
+}
+
+.circle .listing-right ul li{
+    margin-bottom: 60px;
+    
+}
+
+.circle .listing-right ul .organic{
+    position: relative;
+    /* margin-right: 50px; */
+}
+.circle .listing-right ul .organic::before{
+content: " ";
+position: absolute;
+width: 150px;
+bottom: 10%;
+right: 70%;
+border: 0.5px dashed #6caaa8;
+rotate: -5deg;
+}
+
+.circle .listing-right ul .Best{
+    position: relative;
+    /* margin-right: 50px; */
+}
+.circle .listing-right ul .Best::before{
+content: " ";
+position: absolute;
+width: 110px;
+bottom: 10%;
+right: 70%;
+border: 0.5px dashed #6caaa8;
+rotate: -5deg;
+}
+
+.circle .listing-right ul .Hygenic{
+    position: relative;
+    /* margin-right: 50px; */
+}
+.circle .listing-right ul .Hygenic::before{
+content: " ";
+position: absolute;
+width: 100px;
+bottom: 35%;
+right: 70%;
+border: 0.5px dashed #6caaa8;
+/* rotate: -5deg; */
+}
+
+.circle .listing-right ul .Quality{
+    position: relative;
+    /* margin-right: 50px; */
+}
+.circle .listing-right ul .Quality::before{
+content: " ";
+position: absolute;
+width: 110px;
+bottom: 55%;
+right: 70%;
+border: 0.5px dashed #6caaa8;
+rotate: 5deg;
+}
+
+.circle .listing-right ul .Health{
+    position: relative;
+    /* margin-right: 50px; */
+}
+.circle .listing-right ul .Health::before{
+content: " ";
+position: absolute;
+width: 150px;
+bottom: 65%;
+right: 70%;
+border: 0.5px dashed #6caaa8;
+rotate: 5deg;
+}
+
+
+/******************************************** RATING *****************************************************************************/
+.rating{
+    background-color: #e2f3fb;
+    height: 450px;
+    /* margin-bottom: 150px; */
+}
+.rating .container{
+    text-align: center;
+    font-family:'Playfair Display', serif ;
+    position: relative;
+    margin-top: 100px;
+}
+.rating .container h2, .rating .container h4{
+    margin-top: 15px;
+}
+.rating .container img{
+    height: 95px;
+    width: 95px;
+    margin-top: 100px;
+}
+
+.rating .rectangle{
+     margin-top:55px;
+    position: absolute;
+    display: flex;
+    /* margin-bottom:200px; */
+}
+.rating .card{
+    border: none;
+}
+.rating .rectangle1 i{
+    /* margin-top: 30px;
+    margin-bottom: 20px;   */
+    margin: 20px auto 10px;
+}
+.rating .container h5{
+    font-size: 35px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #000000;
+    font-weight: 700;
+}
+.rating .container p{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.rating .rectangle1{
+    transition: all ease 0.5s ;
+}
+.rating .rectangle1:hover{
+    animation:zoom-out 0.5s ease  ;
+    /* animation-delay: 0.5s; */
+    animation-fill-mode: forwards;
+}
+
+.rating .rectangle2{
+    transition: all ease 0.5s ;
+}
+.rating .rectangle2:hover{
+    animation:zoom-out 0.5s ease  ;
+    /* animation-delay: 0.5s; */
+    animation-fill-mode: forwards;
+}
+
+.rating .rectangle3{
+    transition: all ease 0.5s ;
+}
+.rating .rectangle3:hover{
+    animation:zoom-out 0.5s ease  ;
+    /* animation-delay: 0.5s; */
+    animation-fill-mode: forwards;
+}
+
+.rating .rectangle4{
+    transition: all ease 0.5s ;
+}
+.rating .rectangle4:hover{
+    animation:zoom-out 0.5s ease  ;
+    /* animation-delay: 0.3s; */
+    animation-fill-mode: forwards;
+}
+@keyframes zoom-out{
+    0%{
+        margin-top:55px;
+    }
+
+    100%{
+        margin-top: 50px;
+
+    }
+}
+
+/******************************* CUSTOMER REVIEW *************************************************************************/
+.review{
+    background-color: #f0f6f6;
+}
+.review .container{
+text-align: center;
+margin-top: 205px;
+font-family:'Playfair Display', serif ;
+}
+
+.review .container h2{
+    margin-top: 15px;
+}
+.review .container h4{
+    margin-top: 25px;
+    color: #6caaa8;
+    margin-bottom: 50px;
+}
+.review .container img{
+    height: 95px;
+    width: 95px;
+    margin-top: 100px;
+}
+.review .container .john{
+    width:100%;
+    margin-left: 150px;
+}
+.review .card{
+    width: 800px;
+    
+}
+.review .container .john img{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.review .comments{
+    text-align: left;
+    margin-left: 110px;
+    width: 500px;
+}
+.review .readmore{
+    display: flex;
+}
+.review .comments h2{
+    margin-top: 120px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+.review .readmore i{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+
+/* *******************************************BLOG ****************************************************************/
+.blog .container{
+    text-align: center;
+    font-family:'PT Sans', sans-serif ;
+}
+.blog .container h2{
+    margin-top: 15px;
+}
+.blog .container h4{
+    margin-top: 25px;
+    color: #6caaa8;
+    margin-bottom: 50px;
+}
+.blog .container span img{
+    height: 95px;
+    width: 95px;
+    margin-top: 100px;
+}
+.blog .card img{
+    width: 350px;
+    height: 250px;
+    margin-top: 0px;
+    border-top-right-radius:5%;
+}
+.blog .card p{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 10px 0px;
+}
+.blog .card-body{
+    text-align: left;
+}
+.blog h5{
+    text-decoration: underline;
+    color: #6caaa8;
+}
+.blog h6{
+    text-decoration: underline;
+}
+.blog .container p{
+    text-decoration: underline;
+}
+.blog .row p:hover{
+    color: #6caaa8;
+    cursor: pointer;
+}
+.blog h5:hover{
+    color: #6caaa8;
+    cursor: pointer;
+    text-decoration: none;
+}
+.blog h6:hover{
+    cursor: pointer;
+    color: #6caaa8;
+    text-decoration: none;
+}
+.blog .row span a{
+    margin-right: 20px;
+    color: black;
+}
+.blog .row span a:hover{
+    color: #6caaa8;
+}
+.blog .row .text-muted{
+    float: left;
+}
+.blog .row span:hover{
+    color: #6caaa8;
+}
+
+
+
+/*************************************** FOOTER *****************************************************************************/
+.footer{
+    margin-top: 100px;
+}
+.footer .listing{
+    margin-top: 50px;
+}
+
+.footer ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.footer ul{
+    /* float: left; */
+    padding-left: 0;
+    margin: 0;
+}
+.footer .listing h2{
+    margin-bottom: 30px;
+    font-size: 25px;
+
+}
+.footer .logo{
+    display: flex;
+}
+
+.footer .logo img{
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.footer .logo h3{
+    color: white;
+    font-size: 18px;
+}
+.footer .name{
+    margin-top: 35px;
+}
+.footer .logo{
+    display: flex;
+    align-items: center;
+}
+.footer .rectangle{
+    height:45px ;
+    width:620px ;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.footer input{
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+.footer button{
+    border-radius: 30px;
+    background-color: #6caaa8;
+    border: none;
+    padding: 5px;
+    margin-right: 5px;
+}
+.footer button:hover{
+    border: 1px solid #6caaa8;
+    background-color: white;
+}
+.footer p{
+    margin-bottom: 70px;
+}
+
+.footer .row .col-lg-4 p{
+    margin-top: 20px;
+    color:white
+}
+.footer .listing ul li{
+    margin-top: 15px;
+}
+.footer .listing ul li:hover{
+    color: #6caaa8;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/******************** copyright ******************************/
+
+.copyright{
+    width: 100%;
+    height: 50px;
+    background-color: #7eb6db;
+   
+}
+.copyright h6{
+    text-decoration: underline;
+    /* font-weight: 400; */
+    margin-top: 5px;
+}
+.copyright .container{
+ /* text-align: center; */
+ justify-content: center;
+ display: flex;
+ align-items: center;
+ /* border: 2px solid red; */
+}
+.copyright p{
+    margin: 10px;
+}
+
+/*************************************************************************************************************************************/
+     /******************************************** listing Page *****************************************************************/
+.listing-bg{
+    /* background-image: url(./../image/bg.jpg); */
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./../image/bg.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: 100%;
+    background-position: center;
+}
+
+.listing-bg .container{
+   text-align: center;
+   justify-content: center;
+}
+.listing-bg .hello{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-30%,-50%);
+}
+.listing-bg .hello h6{
+    text-decoration: underline;
+}
+.listing-bg .hello h6:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.blog .container1{
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.blog .container2{
+    margin-top: -150px;
+}
+.blog .container1 p a{
+    color: black;
+}
+.blog .container1 p a:hover{
+    color: #6caaa8;
+    cursor: pointer;
+}
+.blog .container2 p a{
+    color: black;
+}
+.blog .container2 p a:hover{
+    color: #6caaa8;
+    cursor: pointer;
+}
+/*****************************************************************************************************************************/
+              /******************************Landing Page ***********************************/
+.blog .container .categories{
+    text-align: left;
+    
+}
+.blog .container .categories .second-col{
+    text-align: right; 
+}
+
+.blog .col-lg-8 .card img{
+    width: 90%;
+    height: auto;
+}
+
+  /* .blog .top-products .flex{
+    display: flex;
+    justify-content:space-between;
+    border:  1px solid #6caaa8;
+    width: 100%;
+    margin-top: 1rem;
+  } */
+  .blog .top-products h2{
+    margin-top: 50px;
+    text-align: left;
+  }
+  .top-products .flex img{
+    height: 100px;
+  }
+  .top-products .flex{
+    display: flex;
+    justify-content:space-between;
+    border:  1px solid #6caaa8;
+    width: 100%;
+    /* height: 100px; */
+    margin-top: 1rem;
+  }
+  .blog .top-products .flex .description{
+    width: 70%;
+    align-self: center;
+    margin-right: 10px;
+  }  
+  
+  .blog .rectangle{
+    height:45px ;
+    width:430px ;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border: 1px solid #6caaa8;
+}
+.blog input{
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+.blog button{
+    border-radius: 30px;
+    background-color: #6caaa8;
+    border: none;
+    padding: 5px;
+    margin-right: 5px;
+    width: 100px;
+}
+.blog button:hover{
+    border: 1px solid #6caaa8;
+    background-color: white;
+}
+/**************************************/
+
+  .blog2 .container{
+    /* text-align: center; */
+    font-family:'PT Sans', sans-serif ;
+    margin-top: 100px;
+}
+
+
+.blog2 .card img{
+    width: 90%;
+    height: auto;
+    margin-top: 0px;
+    border-top-right-radius:5%;
+}
+.blog2 .card p{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 10px 0px;
+}
+.blog2 .paragraph p{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.blog2 .card-body{
+    text-align: left;
+}
+.blog2 h5{
+    text-decoration: underline;
+    color: #6caaa8;
+}
+.blog2 h6{
+    text-decoration: underline;
+}
+.blog2 .container p{
+    text-decoration: underline;
+}
+
+.blog2 h5:hover{
+    color: #6caaa8;
+    cursor: pointer;
+    text-decoration: none;
+}
+.blog2 h6:hover{
+    cursor: pointer;
+    color: #6caaa8;
+    text-decoration: none;
+}
+.blog2 .row span a{
+    margin-right: 20px;
+    color: black;
+}
+.blog2 .row span a:hover{
+    color: #6caaa8;
+}
+.blog2 .row .text-muted{
+    float: left;
+}
+.blog2 .row span:hover{
+    color: #6caaa8;
+}
+
+/****blog2 */
+.blog2{
+    margin-top: 5rem;
+  }
+  .blog2 .search{
+  width: 100%;
+  padding: 5px;
+  border: 0.5px solid #6caaa8;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  }
+  .blog2 .search input{
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    width: 70%;
+    margin-left: 5px;
+  }
+  .blog2 .search button{
+    border-radius: 50px;
+    width: 30%;
+    padding: 10px 10px;
+    background-color: #6caaa8;
+  }
+  .blog2 .search button:hover{
+    background-color: white;
+  }
+  .blog2 .categories .second-col{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .blog2 .categories .second-col h6{
+    padding: 0px 5px;
+    border-radius: 5px;
+  }
+  
+  .blog2 .flex{
+    display: flex;
+  }
+  .blog2 .top-products h2{
+    /* width: 30%; */
+    margin-top:50px;
+    
+  }
+ 
+.blog2 .top-products .flex .description{
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 2rem; 
+    margin-right: 10px;  
+}
+
+/***************jon doe *********************/
+.jon .container{
+    margin-top: 50px;
+}
+.jon{
+    margin-top: 00px;
+
+}
+.jon .card-body{
+    margin-left: -150px;
+}
+.jon .card{
+    height: 100px;
+}
+.jon .doe img{
+    height: 100px;
+    width: 100px;
+}
+
+
+/*************************** contact us *******************************/
+
+.form5{
+    margin-top: 50px;
+    
+  }
+  .form5 .col-lg-6{
+    background-image: url(./../image/europe.jpg);
+    background-size: cover;
+    background-position: center;
+  
+  }
+  .form5 .container .form1{
+  color: white;
+  }
+  .form5 button{
+    margin-bottom: 50px;
+  }
